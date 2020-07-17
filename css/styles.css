@@ -1,0 +1,32 @@
+hr {
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-width: 5px;
+  width:  12%;
+
+}
+
+body{
+  margin: 0;
+  background-color: #99b898;
+}
+
+.RE-Welcome{
+    text-align: center;
+     margin-top:-15px;
+
+}
+.RE-Why{
+    text-align: center;
+     margin-top:-15px;
+
+}
+.RE-What{
+    text-align: center;
+     margin-top:-15px;
+
+}
