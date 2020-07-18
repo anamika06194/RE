@@ -68,10 +68,10 @@ h1{
    } /* Green */
 
    .RE_Rakhi2{
-     width: 500px;
-     height: 120px;
+     width: 400px;
+     height: 100px;
      position: absolute;
-     top: 600px;
+     top: 500px;
      right: 100px;
    }
    /* resize images */
@@ -81,8 +81,8 @@ h1{
 }
 
    .container {
-    width: 500px;
-    height: 120px;
+    width: 400px;
+    height: 100px;
     position: absolute;
     right: 100px;
 }
