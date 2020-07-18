@@ -14,7 +14,9 @@ body{
   margin: 0;
   background-color: #99b898;
 }
-
+.insider body{
+  text-align: center;
+}
 .RE-Welcome{
     text-align: center;
      margin-top:-15px;
@@ -90,4 +92,73 @@ h1{
 .container img {
     width: 80%;
     height: auto;
+}
+
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+
+  padding: 20px 10px;
+}
+/* Style the header links */
+.header a {
+
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.MeetRubina-Row{
+  width: 70%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+
+}
+.MeetRubina-Row2{
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 1.5;
+
+}
+.MeetRubina-Row3{
+  width: 70%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+
+
+}
+.rubina-img1{
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+.rubina-img2{
+  width: 20%;
+  float: right;
+  margin-left: 20px;
+}
+
+.rubina-img3{
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+.header{
+  transition: 0.2s;
+  text-align: right;
+  color: black;
+}
+.header p{
+  text-align: right;
+  margin-left: 250px;
 }

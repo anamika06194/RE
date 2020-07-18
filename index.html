@@ -15,6 +15,12 @@
   <link rel="icon" href="images/favicon.ico" size="16x16" type="image/x-icon">
 
 <body>
+
+<div id="header">
+  <p style="display: inline-block; padding-left: 70%"><a style="text-decoration: none; color: black;" href="order.html">Order</a></p>
+  <p style="display: inline-block; padding:0% 5% 0% 5%"> <a style="text-decoration: none; color: black;" href="Insider.html">Insider Info</a> </p>
+  <p style="display: inline-block; padding-right: 5%"> <a style="text-decoration: none; color: black;" href="FAQ.html">FAQ</a></p>
+</div>
   <img src="images/SaveEarth.jpg" alt="Save Earth" style="width:100%;height:250px">
   <div class="RE-Welcome">
     <h1>Welcome to RE !!!</h1>
@@ -43,7 +49,21 @@
     <br>
     <p> &#xa9; All rights reserved</p>
   </div>
+
+  <script>
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.fontSize = "20px";
+  } else {
+    document.getElementById("header").style.fontSize = "20px";
+  }
+}
+</script>
 </body>
 
 
 </head>
+</html>
